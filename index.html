@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Manager - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🌿 Plant Manager</h1>
+        <p>Dashboard de Controle de Regas</p>
+    </header>
+
+    <section class="plant-form">
+        <input type="text" id="nome" placeholder="Nome da Planta (ex: Jiboia)" required>
+        <input type="number" id="frequencia" placeholder="Rega a cada (dias)" required>
+        <button class="btn-add" id="add-btn">Adicionar</button>
+    </section>
+
+    <main class="dashboard" id="grid">
+        </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
